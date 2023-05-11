@@ -1,0 +1,29 @@
+TDD
+해외 위키피디아에는 TDD가 이렇게 쓰여있다.
+Test-driven development (TDD) is a software development process relying on software requirements being converted to test cases before software is fully developed, and tracking all software development by repeatedly testing the software against all test cases. This is as opposed to software being developed first and test cases created later.
+즉, TDD란 Test-driven development의 약자로 완전히 개발되기 전에 모든 테스트 케이스에 대해 반복적으로 테스트하여 모든 소프트웨어 개발을 추적하는 것이다.
+기존의 소프트웨어 개발 이후 테스트하는 것과 완전히 반대되는 개념이다.
+
+테스트 코드 작성 순서는 쉬운 경우에서 어려운 경우로, 예외적인 경우에서 정상인 경우로 진행한다.
+방식은 다음과 같다.
+
+TDD를 해야할 때
+- 처음해보는 프로그램 주제
+- 고객의 요구조건이 바뀔 수 있는 프로젝트
+- 개발하는 중에 코드를 많이 바꿔야 된다고 생각하는 경우
+- 개발 이후 누가 유지보수할지 모르는 경우
+
+TDD의 효과
+피드백과 협력을 동시에 증진시킨다.
+
+TDD의 장점
+- 튼튼한 객체 지향적인 코드 생산
+- 재설계 시간의 단축
+- 디버깅 시간의 단축
+- 테스트 문서의 대체 가능
+- 추가 구현의 용이함
+
+TDD의 단점
+- 생산성 저하
+
+SI 프로젝트에서는 소프트웨어 품질보다 납기일 준수가 훨씬 중요하기에 TDD방식을 잘 사용하지 않음
