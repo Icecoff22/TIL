@@ -1,0 +1,8 @@
+CORS는 무엇일까?
+cors란 Cross-Origin Resource Sharing의 약자로 교차 출처 리소스 공유라는 뜻이다. 교차 출처는 무엇일까?
+
+CORS에서 Origin(출처)이란?
+서버의 위치를 의미하는 URL들은 여러 개의 구성 요소로 이루어져 있는데, 다음과 같다.
+
+https://www.aligoligo.me/users?sort=asc&page=1#foo
+여기서 https://가 protocol, .me까지가 host, "?"전까지가 path, page=1까지가 query string, 나머지가 fragment이다.
