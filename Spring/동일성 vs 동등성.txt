@@ -87,3 +87,5 @@ public int hashCode(){
 위 예시와 같이 오버라이드하면 된다.
 위 코드로 인해 주소 값이 달라도 name이 같으면 hashCode의 결과 값이 같다.
 따라서 hash Table을 사용한 자료구조에서도 동등성을 보장할 수 있다.
+
+참고 Reference : https://creampuffy.tistory.com/140
